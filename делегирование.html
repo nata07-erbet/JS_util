@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Делегирование</title>
+    <link rel="stylesheet" href="https://htmlacademy.github.io/console.js/latest/css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Товары для котиков</legend>
+            <ul>
+                <li class="discount-100">
+                    <label>
+                        <input type="radio" name="toy_type" value="Дразнилки" checked>
+                        Дразнилки
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="toy_type" value="Шуршалки">
+                        Шуршалки
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="toy_type" value="Пищалки">
+                        Пищалки
+                    </label>
+                </li>
+                <li>
+                    <label class="discount-100">
+                        <input type="radio" name="toy_type" value="Мышки">
+                        Мышки
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="toy_type" value="Мячики">
+                        Мячики
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <h3>
+        Показаны товары из категории «<span id="selected-category">Дразнилки</span>»
+    </h3>
+
+    <script src="делегирование.js"></script>
+</body>
+
+</html>
